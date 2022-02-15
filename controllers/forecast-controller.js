@@ -3,7 +3,6 @@ const router = express.Router();
 const axios = require("axios");
 
 //Get weather by city name
-
 router.get("/:city", async (request, response) => {
     try {
         const city = request.params.city;

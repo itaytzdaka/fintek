@@ -11,7 +11,6 @@ server.use(cors({
 
 const forecastController=require("./controllers/forecast-controller");
 
-// server.use("/api/weather", weatherController);
 server.use("/api/forecast", forecastController);
 
 
