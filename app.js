@@ -9,6 +9,7 @@ server.use(cors({
 }));
 
 
+
 const forecastController=require("./controllers/forecast-controller");
 
 server.use("/api/forecast", forecastController);
